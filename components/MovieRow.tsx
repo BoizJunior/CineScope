@@ -44,7 +44,7 @@ export default function MovieRow({ title, movies, isLargeRow = false, onMovieCli
 
         <div
           ref={rowRef}
-          className="flex items-center space-x-0.5 overflow-x-scroll no-scrollbar md:space-x-2.5 md:p-2"
+          className="flex items-center gap-4 overflow-x-scroll no-scrollbar md:p-2"
         >
           {movies.map((movie) => (
             <div

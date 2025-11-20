@@ -1433,6 +1433,10 @@ body {
     padding-bottom: 2.5rem;
   }
 
+  .md\:pt-32 {
+    padding-top: 8rem;
+  }
+
   .md\:text-left {
     text-align: left;
   }
