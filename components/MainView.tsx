@@ -69,7 +69,7 @@ export default function MainView({
       <main className="relative pb-24 lg:space-y-24">
         <Hero movies={trendingMovies} onPlayClick={handleMovieClick} />
         
-        <section className="pl-4 lg:pl-16 md:space-y-24">
+        <section className="pl-4 lg:pl-16 md:space-y-24 mt-10 md:mt-16">
           <MovieRow title="Trending Now" movies={trendingMovies} isLargeRow onMovieClick={handleMovieClick} />
           <MovieRow title="Top Rated" movies={topRatedMovies} onMovieClick={handleMovieClick} />
           <MovieRow title="Action Thrillers" movies={actionMovies} onMovieClick={handleMovieClick} />
